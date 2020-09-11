@@ -49,7 +49,7 @@ namespace LINQ
 
             //string name = "Terrill";
 
-            //var organized = name.ToLower().OrderBy(n => n).GroupBy(n => n).Select(n => n);
+            //var organized = name.ToUpper().OrderBy(n => n).GroupBy(n => n).Select(n => n);
 
             //foreach (var countOfCharacters in organized)
             //{
