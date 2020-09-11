@@ -34,10 +34,16 @@ namespace LINQ
             "98,100,66,74,55"
             };
             string[] grades;
+            
             foreach (var stringOfGrades in classGrades)
             {
                 grades = stringOfGrades.Split(',');
-             
+                var numbers = grades.Where()
+                foreach(var grade in grades)
+                {
+                    int value = Int32.Parse(grade);
+                    int[] values;
+                }
             }
           
 
